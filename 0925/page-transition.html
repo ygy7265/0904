@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>jQuery Mobile</title>
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   <div data-role="page" id="page1" data-title="First page">
+      <div data-role="header">
+      <h1>First page</h1>
+   </div>
+   <div data-role="content">
+      <a href="#page2">Second page </a>
+   </div>
+   <div data-role="footer">
+      <h4>innerlink Type</h4>
+   </div>
+</div>
+
+<div data-role="page" id="page2">
+   <div data-role="header">
+      <h1>Second page</h1>
+   </div>
+   <div data-role="content">
+     <p>Page Change animation Effect</p><br/>
+     <a href="#page1" data-direction="reverse">Fist page</a><br/>
+     <a href="#page3">thirdpage BaseChangeEffect apply</a><br/>
+     <a href="#page3" data-transition="slide">thirdpage slide apply</a><br/>
+     <a href="#page3" data-transition="slideup">thirdpage slideup apply</a><br/>
+     <a href="#page3" data-transition="slidedown">thirdpage slidedown apply</a><br/>
+     <a href="#page3" data-transition="flip">thirdpage flip apply</a><br/>
+     <a href="#page3" data-transition="fade">thirdpage fade apply</a><br/>
+     <a href="#page3" data-transition="pop">thirdpage pop apply</a><br/>
+     <a href="#page3" data-transition="none">thirdpage none apply</a><br/>
+   </div>
+   <div data-role="footer">
+      <h4>innerlink Type</h4>
+   </div>
+</div>
+
+<div data-role="page" id="page3" data-title="thirdpage">
+   <div data-role="header">
+      <h1>Change Effect</h1>
+   </div>
+   <div data-role="content">
+      <a href="#page1">First page </a>
+      <a href="#somepage" data-rel="back">Second page</a>
+   </div>
+   <div data-role="footer">
+      <h4>innerlink Type</h4>
+   </div>
+</div>
+</body>
+</html>
