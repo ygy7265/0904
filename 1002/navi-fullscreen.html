@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>jQuery Mobile</title>
+   <link rel="stylesheet" href="src/jquery.mobile-1.4.5.min.css"/>
+   <script src="src/jquery-1.11.1.min.js"></script>
+   <script src="src/jquery.mobile-1.4.5.min.js"></script>
+<head>
+	<title>헤더바 생성하기</title>
+</head>
+<body>
+	<div data-role="page" id = "page1">
+	<div data-role="header">
+		<h1>페이지제목</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#page1" class="ui-btn-active ui-state-persist">page1</a></li>
+				<li><a href="#page2">page2</a></li>
+				<li><a href="#page3">page3</a></li>
+			</ul>
+	</div>
+</div>
+	<div data-role="content">
+		<p>content영역</p>
+		<h1>첫번째 페이지</h1>
+	</div>
+	<div data-role="footer" data-id="footerid1" data-position="fixed">
+      <div data-role="navbar" >
+         <ul>
+            <li><a href="#" data-icon="plus">추가</a></li>
+            <li><a href="#" data-icon="minus">삭제</a></li>
+            <li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+
+	<div data-role="page" id = "page2">
+	<div data-role="header">
+		<h1>페이지제목</h1>
+		<div data-role="navbar">
+			<ul>
+					<li><a href="#page1">page1</a></li>
+				<li><a href="#page2" class="ui-btn-active ui-state-persist">page2</a></li>
+				<li><a href="#page3">page3</a></li>
+			</ul>
+	</div>
+</div>
+	<div data-role="content">
+		<p>content영역</p>
+		<h1>두번째 페이지</h1>
+	</div>
+	<div data-role="footer" data-id="footerid1" data-position="fixed">
+      <div data-role="navbar" >
+         <ul>
+            <li><a href="#" data-icon="plus">추가</a></li>
+            <li><a href="#" data-icon="minus">삭제</a></li>
+            <li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+
+	<div data-role="page" id = "page3">
+	<div data-role="header">
+		<h1>페이지제목</h1>
+		<div data-role="navbar">
+			<ul>
+					<li><a href="#page1">page1</a></li>
+				<li><a href="#page2">page2</a></li>
+				<li><a href="#page3" class="ui-btn-active ui-state-persist">page3</a></li>
+			</ul>
+	</div>
+</div>
+	<div data-role="content">
+		<p>content영역</p>
+		<h1>세번째 페이지</h1>
+	</div>
+	<div data-role="footer" data-id="footerid1" data-position="fixed">
+      <div data-role="navbar" >
+         <ul>
+            <li><a href="#" data-icon="plus">추가</a></li>
+            <li><a href="#" data-icon="minus">삭제</a></li>
+            <li><a href="#" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+         </ul>
+      </div>
+   </div>
+</div>
+</body>
+</html>

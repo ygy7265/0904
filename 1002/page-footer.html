@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>헤더바 생성하기</title>
+	<link rel="stylesheet" href="src/jquery.mobile-1.4.5.min.css"/>
+	<script src="src/jquery-1.11.1.min.js"></script>
+	<script src="src/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page" id="page1">
+		<div data-role="header" data-add-back-btn="true">
+
+			<h1>페이지 제목</h1>
+			<a href="#page2" class="ui-btn-right">페이지2</a>
+			</div>
+		
+	
+		
+		<div data-role="content">
+			<p>content 영역</p>
+			<h1>첫번째 페이지</h1>
+		</div>
+
+
+		<div data-role="footer" class="ui-bar">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#">바 버튼1</a>
+				<a href="#">바 버튼2</a>
+				
+		</div>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+		<div data-role="header" data-add-back-btn="true">
+
+			<h1>페이지 제목</h1>
+			<a href="#page1" class="ui-btn-left">이전으로</a>
+			</div>
+		
+	
+		
+		<div data-role="content">
+			<p>content 영역</p>
+			<h1>두번째 페이지</h1>
+		</div>
+
+		
+		<div data-role="footer" class="ui-bar">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#">바 버튼1</a>
+				<a href="#">바 버튼2</a>
+				
+			
+			
+		</div>
+	</div>
+</div>
+	</body>
+</html>
